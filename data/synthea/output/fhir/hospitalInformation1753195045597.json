@@ -1,0 +1,597 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [ {
+    "fullUrl": "urn:uuid:fa09396a-2926-3b21-ad0c-9f6cabbce0eb",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "fa09396a-2926-3b21-ad0c-9f6cabbce0eb",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "fa09396a-2926-3b21-ad0c-9f6cabbce0eb"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "WOONSOCKET URGENT CARE PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4017662700"
+      } ],
+      "address": [ {
+        "line": [ "1210 BOSTON PROVIDENCE TPKE" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020625061",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|fa09396a-2926-3b21-ad0c-9f6cabbce0eb"
+    }
+  }, {
+    "fullUrl": "urn:uuid:4a4f726e-3e89-3056-91ec-7c8d314c7b08",
+    "resource": {
+      "resourceType": "Location",
+      "id": "4a4f726e-3e89-3056-91ec-7c8d314c7b08",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "4a4f726e-3e89-3056-91ec-7c8d314c7b08"
+      } ],
+      "status": "active",
+      "name": "WOONSOCKET URGENT CARE PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4017662700"
+      } ],
+      "address": {
+        "line": [ "1210 BOSTON PROVIDENCE TPKE" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020625061",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.1951186,
+        "latitude": 42.1714075
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "fa09396a-2926-3b21-ad0c-9f6cabbce0eb"
+        },
+        "display": "WOONSOCKET URGENT CARE PC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|4a4f726e-3e89-3056-91ec-7c8d314c7b08"
+    }
+  }, {
+    "fullUrl": "urn:uuid:929d7ec5-3ee7-35ab-a056-91f60788c234",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "929d7ec5-3ee7-35ab-a056-91f60788c234",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 31
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 162
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 31
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 18
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "929d7ec5-3ee7-35ab-a056-91f60788c234"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "ADAPS HEALTHCARE LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7818565072"
+      } ],
+      "address": [ {
+        "line": [ "474 PLEASANT ST" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020624531",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|929d7ec5-3ee7-35ab-a056-91f60788c234"
+    }
+  }, {
+    "fullUrl": "urn:uuid:3c7b4bb9-7101-33e7-a775-49bcc23e3b65",
+    "resource": {
+      "resourceType": "Location",
+      "id": "3c7b4bb9-7101-33e7-a775-49bcc23e3b65",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "3c7b4bb9-7101-33e7-a775-49bcc23e3b65"
+      } ],
+      "status": "active",
+      "name": "ADAPS HEALTHCARE LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7818565072"
+      } ],
+      "address": {
+        "line": [ "474 PLEASANT ST" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020624531",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.19722229999999,
+        "latitude": 42.1816837
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "929d7ec5-3ee7-35ab-a056-91f60788c234"
+        },
+        "display": "ADAPS HEALTHCARE LLC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|3c7b4bb9-7101-33e7-a775-49bcc23e3b65"
+    }
+  }, {
+    "fullUrl": "urn:uuid:57e4e5fa-d68d-3caa-a5ad-37beb1b51207",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "57e4e5fa-d68d-3caa-a5ad-37beb1b51207",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 22
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "57e4e5fa-d68d-3caa-a5ad-37beb1b51207"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "STEWARD NORWOOD HOSPITAL INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7812784120"
+      } ],
+      "address": [ {
+        "line": [ "800 WASHINGTON ST" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020623487",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|57e4e5fa-d68d-3caa-a5ad-37beb1b51207"
+    }
+  }, {
+    "fullUrl": "urn:uuid:9dae3a42-1e28-3e66-8671-7d2bfce75445",
+    "resource": {
+      "resourceType": "Location",
+      "id": "9dae3a42-1e28-3e66-8671-7d2bfce75445",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "9dae3a42-1e28-3e66-8671-7d2bfce75445"
+      } ],
+      "status": "active",
+      "name": "STEWARD NORWOOD HOSPITAL INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7812784120"
+      } ],
+      "address": {
+        "line": [ "800 WASHINGTON ST" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020623487",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.2005241,
+        "latitude": 42.1886973
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "57e4e5fa-d68d-3caa-a5ad-37beb1b51207"
+        },
+        "display": "STEWARD NORWOOD HOSPITAL INC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|9dae3a42-1e28-3e66-8671-7d2bfce75445"
+    }
+  }, {
+    "fullUrl": "urn:uuid:7f2ffa4e-e192-3b51-b5ca-81bbf077f160",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "7f2ffa4e-e192-3b51-b5ca-81bbf077f160",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "7f2ffa4e-e192-3b51-b5ca-81bbf077f160"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "HELLENIC WOMEN'S BENEVOLENT ASSOCIATION, INC.",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7818287450"
+      } ],
+      "address": [ {
+        "line": [ "601 SHERMAN ST" ],
+        "city": "CANTON",
+        "state": "MA",
+        "postalCode": "020212025",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|7f2ffa4e-e192-3b51-b5ca-81bbf077f160"
+    }
+  }, {
+    "fullUrl": "urn:uuid:e6f41e62-1001-3019-84fb-b9c65375af98",
+    "resource": {
+      "resourceType": "Location",
+      "id": "e6f41e62-1001-3019-84fb-b9c65375af98",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "e6f41e62-1001-3019-84fb-b9c65375af98"
+      } ],
+      "status": "active",
+      "name": "HELLENIC WOMEN'S BENEVOLENT ASSOCIATION, INC.",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7818287450"
+      } ],
+      "address": {
+        "line": [ "601 SHERMAN ST" ],
+        "city": "CANTON",
+        "state": "MA",
+        "postalCode": "020212025",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.15024107129324,
+        "latitude": 42.1635341
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "7f2ffa4e-e192-3b51-b5ca-81bbf077f160"
+        },
+        "display": "HELLENIC WOMEN'S BENEVOLENT ASSOCIATION, INC."
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|e6f41e62-1001-3019-84fb-b9c65375af98"
+    }
+  }, {
+    "fullUrl": "urn:uuid:8af3b144-0e1a-3c90-937d-81a4ed026080",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "8af3b144-0e1a-3c90-937d-81a4ed026080",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/bed-count-extension",
+        "valueInteger": 263
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "8af3b144-0e1a-3c90-937d-81a4ed026080"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "NORWOOD HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7817694000"
+      } ],
+      "address": [ {
+        "line": [ "800 WASHINGTON STREET" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020623489",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|8af3b144-0e1a-3c90-937d-81a4ed026080"
+    }
+  }, {
+    "fullUrl": "urn:uuid:31afb85b-97fe-37d4-8d40-dcd6eb7df160",
+    "resource": {
+      "resourceType": "Location",
+      "id": "31afb85b-97fe-37d4-8d40-dcd6eb7df160",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "31afb85b-97fe-37d4-8d40-dcd6eb7df160"
+      } ],
+      "status": "active",
+      "name": "NORWOOD HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "7817694000"
+      } ],
+      "address": {
+        "line": [ "800 WASHINGTON STREET" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020623489",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.2005241,
+        "latitude": 42.1886973
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "8af3b144-0e1a-3c90-937d-81a4ed026080"
+        },
+        "display": "NORWOOD HOSPITAL"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|31afb85b-97fe-37d4-8d40-dcd6eb7df160"
+    }
+  }, {
+    "fullUrl": "urn:uuid:e7722de2-0e62-3dc9-a163-a7003956673b",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "e7722de2-0e62-3dc9-a163-a7003956673b",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 4
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "e7722de2-0e62-3dc9-a163-a7003956673b"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "SEASONS HOSPICE & PALLIATIVE CARE OF MASS LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "8666709449"
+      } ],
+      "address": [ {
+        "line": [ "1 EDGEWATER DRIVE, SUITE 103" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020624669",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|e7722de2-0e62-3dc9-a163-a7003956673b"
+    }
+  }, {
+    "fullUrl": "urn:uuid:2a3b7040-f8bd-3942-955e-7b6443f75c31",
+    "resource": {
+      "resourceType": "Location",
+      "id": "2a3b7040-f8bd-3942-955e-7b6443f75c31",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "2a3b7040-f8bd-3942-955e-7b6443f75c31"
+      } ],
+      "status": "active",
+      "name": "SEASONS HOSPICE & PALLIATIVE CARE OF MASS LLC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "8666709449"
+      } ],
+      "address": {
+        "line": [ "1 EDGEWATER DRIVE, SUITE 103" ],
+        "city": "NORWOOD",
+        "state": "MA",
+        "postalCode": "020624669",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -71.20162617190071,
+        "latitude": 42.16153305
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "e7722de2-0e62-3dc9-a163-a7003956673b"
+        },
+        "display": "SEASONS HOSPICE & PALLIATIVE CARE OF MASS LLC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|2a3b7040-f8bd-3942-955e-7b6443f75c31"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+    "resource": {
+      "resourceType": "Location",
+      "id": "bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+      } ],
+      "status": "active",
+      "description": "Patient's Home",
+      "mode": "kind",
+      "physicalType": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code": "ho",
+          "display": "House"
+        } ]
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+    }
+  } ]
+}

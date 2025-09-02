@@ -1,0 +1,412 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [ {
+    "fullUrl": "urn:uuid:e6cc6043-299a-3581-8f6b-b3b5d62c46ae",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "e6cc6043-299a-3581-8f6b-b3b5d62c46ae",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 40
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 475
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 56
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 47
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "e6cc6043-299a-3581-8f6b-b3b5d62c46ae"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "CARING HEALTH CENTER, INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137391100"
+      } ],
+      "address": [ {
+        "line": [ "532 SUMNER AVE" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011082458",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|e6cc6043-299a-3581-8f6b-b3b5d62c46ae"
+    }
+  }, {
+    "fullUrl": "urn:uuid:d1856ad0-bce0-324a-aae7-c86e3da39986",
+    "resource": {
+      "resourceType": "Location",
+      "id": "d1856ad0-bce0-324a-aae7-c86e3da39986",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "d1856ad0-bce0-324a-aae7-c86e3da39986"
+      } ],
+      "status": "active",
+      "name": "CARING HEALTH CENTER, INC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137391100"
+      } ],
+      "address": {
+        "line": [ "532 SUMNER AVE" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011082458",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.55792579166666,
+        "latitude": 42.08631583333334
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "e6cc6043-299a-3581-8f6b-b3b5d62c46ae"
+        },
+        "display": "CARING HEALTH CENTER, INC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|d1856ad0-bce0-324a-aae7-c86e3da39986"
+    }
+  }, {
+    "fullUrl": "urn:uuid:b9e35b8a-9831-32d8-a6dc-d7a546c126b0",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "b9e35b8a-9831-32d8-a6dc-d7a546c126b0",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 103
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/bed-count-extension",
+        "valueInteger": 174
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "b9e35b8a-9831-32d8-a6dc-d7a546c126b0"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "VIBRA HOSPITAL OF WESTERN MASS - CENTRAL CAMPUS",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137876700"
+      } ],
+      "address": [ {
+        "line": [ "111 HUNTOON MEMORIAL HIGHWAY, 1ST FLOOR" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011092550",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|b9e35b8a-9831-32d8-a6dc-d7a546c126b0"
+    }
+  }, {
+    "fullUrl": "urn:uuid:c6e812b0-9e2e-3d09-b110-3c364f2ef2ea",
+    "resource": {
+      "resourceType": "Location",
+      "id": "c6e812b0-9e2e-3d09-b110-3c364f2ef2ea",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "c6e812b0-9e2e-3d09-b110-3c364f2ef2ea"
+      } ],
+      "status": "active",
+      "name": "VIBRA HOSPITAL OF WESTERN MASS - CENTRAL CAMPUS",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137876700"
+      } ],
+      "address": {
+        "line": [ "111 HUNTOON MEMORIAL HIGHWAY, 1ST FLOOR" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011092550",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.5886727,
+        "latitude": 42.1018764
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "b9e35b8a-9831-32d8-a6dc-d7a546c126b0"
+        },
+        "display": "VIBRA HOSPITAL OF WESTERN MASS - CENTRAL CAMPUS"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|c6e812b0-9e2e-3d09-b110-3c364f2ef2ea"
+    }
+  }, {
+    "fullUrl": "urn:uuid:87472bc2-7c23-37cc-8355-7f3e88614b6b",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "87472bc2-7c23-37cc-8355-7f3e88614b6b",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 7
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/bed-count-extension",
+        "valueInteger": 131
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "87472bc2-7c23-37cc-8355-7f3e88614b6b"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "EAST LONGMEADOW SKILLED NURSING CENTER",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4135256361"
+      } ],
+      "address": [ {
+        "line": [ "305 MAPLE STREET" ],
+        "city": "EAST LONGMEADOW",
+        "state": "MA",
+        "postalCode": "010282765",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|87472bc2-7c23-37cc-8355-7f3e88614b6b"
+    }
+  }, {
+    "fullUrl": "urn:uuid:f950f733-4573-39ad-bf0f-01f817798e29",
+    "resource": {
+      "resourceType": "Location",
+      "id": "f950f733-4573-39ad-bf0f-01f817798e29",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "f950f733-4573-39ad-bf0f-01f817798e29"
+      } ],
+      "status": "active",
+      "name": "EAST LONGMEADOW SKILLED NURSING CENTER",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4135256361"
+      } ],
+      "address": {
+        "line": [ "305 MAPLE STREET" ],
+        "city": "EAST LONGMEADOW",
+        "state": "MA",
+        "postalCode": "010282765",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.53388585052694,
+        "latitude": 42.059258494749486
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "87472bc2-7c23-37cc-8355-7f3e88614b6b"
+        },
+        "display": "EAST LONGMEADOW SKILLED NURSING CENTER"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|f950f733-4573-39ad-bf0f-01f817798e29"
+    }
+  }, {
+    "fullUrl": "urn:uuid:7dcab1ad-0e13-3700-9eb0-70767c5e2b55",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "7dcab1ad-0e13-3700-9eb0-70767c5e2b55",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "7dcab1ad-0e13-3700-9eb0-70767c5e2b55"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "URGENT CARE PHYSICIANS PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137839114"
+      } ],
+      "address": [ {
+        "line": [ "1515 ALLEN ST" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011181803",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|7dcab1ad-0e13-3700-9eb0-70767c5e2b55"
+    }
+  }, {
+    "fullUrl": "urn:uuid:99f1db00-66a5-3bc4-80d4-adfd9a14cf70",
+    "resource": {
+      "resourceType": "Location",
+      "id": "99f1db00-66a5-3bc4-80d4-adfd9a14cf70",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "99f1db00-66a5-3bc4-80d4-adfd9a14cf70"
+      } ],
+      "status": "active",
+      "name": "URGENT CARE PHYSICIANS PC",
+      "telecom": [ {
+        "system": "phone",
+        "value": "4137839114"
+      } ],
+      "address": {
+        "line": [ "1515 ALLEN ST" ],
+        "city": "SPRINGFIELD",
+        "state": "MA",
+        "postalCode": "011181803",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -72.50943136142334,
+        "latitude": 42.095299499999996
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "7dcab1ad-0e13-3700-9eb0-70767c5e2b55"
+        },
+        "display": "URGENT CARE PHYSICIANS PC"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|99f1db00-66a5-3bc4-80d4-adfd9a14cf70"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+    "resource": {
+      "resourceType": "Location",
+      "id": "bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+      } ],
+      "status": "active",
+      "description": "Patient's Home",
+      "mode": "kind",
+      "physicalType": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code": "ho",
+          "display": "House"
+        } ]
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+    }
+  } ]
+}
