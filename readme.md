@@ -1,12 +1,12 @@
-#ClinicLink
+# ClinicLink
 
-##FHIR-Based Clinical Data Aggregation Platform
+## FHIR-Based Clinical Data Aggregation Platform
 
 ClinicLink is a clinical data aggregation platform designed to integrate multi-source health records and transform them into FHIR-compliant standardized resources. The project focuses on improving interoperability across heterogeneous health data sources.
 
 This is an ongoing, research-oriented project with an emphasis on data pipelines and healthcare data standards.
 
-##🎯 Project Overview
+## 🎯 Project Overview
 
 Healthcare data is often fragmented across multiple systems and formats. ClinicLink aims to address this challenge by:
 
@@ -18,7 +18,7 @@ Healthcare data is often fragmented across multiple systems and formats. ClinicL
 
 - Enabling downstream analytics and longitudinal patient views
 
-##🚀 Current Features
+## 🚀 Current Features
 
 - Multi-source clinical data ingestion
 
@@ -30,7 +30,7 @@ Healthcare data is often fragmented across multiple systems and formats. ClinicL
 
 - Modular and extensible pipeline design
 
-##🧠 Current Focus
+## 🧠 Current Focus
 
 The project is currently focused on the data transformation layer, where raw clinical and wearable data is converted into standardized FHIR resources, including:
 
@@ -44,7 +44,7 @@ The project is currently focused on the data transformation layer, where raw cli
 
 Transformation logic is implemented in Python, emphasizing correctness, extensibility, and standards compliance.
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - Language: Python
 
